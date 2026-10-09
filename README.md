@@ -27,9 +27,7 @@ Python 3.11 or newer is required.
 
 When the run finishes, the terminal prints a short report: batch counts, one line per rejected resume, the ranking table, and two witness lines. The same report is saved as `output/results.txt`. Score details for each person stay in `output/results.json`.
 
-### Optional key
-
-Scoring does not need an API key. The saved run does not call a model.
+### Optional keys
 
 ```bash
 cp .env.example .env
@@ -37,7 +35,11 @@ cp .env.example .env
 
 | Variable | What it does |
 | --- | --- |
+| `LLM_API_KEY` | |
+| `LLM_MODEL` | |
 | `GITHUB_TOKEN` | Optional. Raises the public GitHub rate limit. Leave it empty to use the unauthenticated API. |
+
+*(Add a model as per choice.)
 
 Eligible rows stay `llm_status: skipped` and keep the rule-based score.
 
