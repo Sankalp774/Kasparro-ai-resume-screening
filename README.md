@@ -12,12 +12,8 @@ There is no website and no API server. The program runs once and writes a JSON f
 From this folder:
 
 ```bash
-cd "/Users/sankalp/Projects/Kasparro FSE- AI Resume Screening and Ranking"
-source .venv/bin/activate
 python main.py --input ./resumes --output ./output/results.json
 ```
-
-The virtualenv is already created and the dependencies are already installed. The command above is enough for a normal run.
 
 If you are setting the project up on a new machine:
 
