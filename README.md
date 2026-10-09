@@ -59,7 +59,15 @@ The tests check the hard filter, the score caps and penalties, a model quote tha
 
 The run writes two files.
 
-`output/results.txt` is the short report: batch counts, rejected people one per line, the ranking table, and the model and GitHub lines.
+`output/results.txt` is the short report: batch counts, rejected people one per line, the ranking table, and the model and GitHub lines. This is the same text the terminal prints.
+
+[Image #1] shows the batch counts and the rejected groups.
+
+![Image #1](docs/output-1.png)
+
+[Image #2] shows the ranking table and the witness lines. Arunima Saha, Prajwal A S, and Yash Maini are tied at 80. GitHub scored 13 of 14 profiles.
+
+![Image #2](docs/output-2.png)
 
 `output/results.json` is the same result for a program to read. It has three parts.
 
