@@ -51,6 +51,10 @@ pytest
 
 The tests check the hard filter, the score caps and penalties, a model quote that is not in the resume, a model call that crashes on one chosen file, GitHub caching and a 404, and a corrupt PDF that does not stop the next file.
 
+[Image #3] shows that run: 20 tests passed.
+
+![Image #3](docs/output-3.png)
+
 ## What the output contains
 
 The run writes two files.
