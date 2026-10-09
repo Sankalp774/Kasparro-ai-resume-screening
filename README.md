@@ -27,9 +27,9 @@ Python 3.11 or newer is required.
 
 When the run finishes, the terminal prints a short report: batch counts, one line per rejected resume, the ranking table, and two witness lines. The same report is saved as `output/results.txt`. Score details for each person stay in `output/results.json`.
 
-### Optional keys
+### Optional key
 
-A model key and a GitHub token are optional. With no keys, every resume is still scored from its text.
+Scoring does not need an API key. The saved run does not call a model.
 
 ```bash
 cp .env.example .env
@@ -37,11 +37,9 @@ cp .env.example .env
 
 | Variable | What it does |
 | --- | --- |
-| `LLM_API_KEY` | Key for the witness model. `XAI_API_KEY` is also accepted. |
-| `LLM_MODEL` | Defaults to `grok-4.7`. Requests go to `https://api.x.ai/v1`. |
-| `GITHUB_TOKEN` | Optional. Raises the public GitHub rate limit. |
+| `GITHUB_TOKEN` | Optional. Raises the public GitHub rate limit. Leave it empty to use the unauthenticated API. |
 
-If `LLM_API_KEY` is empty, eligible rows are marked `llm_status: skipped` and keep the rule-based score. Fill in the key and run the same command again to let the model adjust AI depth.
+Eligible rows stay `llm_status: skipped` and keep the rule-based score.
 
 ### Tests
 
@@ -201,9 +199,9 @@ A project that only mentions an LLM, with no retrieval, tools, state, orchestrat
 
 ### llm.py
 
-This is the only file that calls a model. It asks `grok-4.7` for a project summary, strengths, concerns, and one quote copied from the resume. The pipeline applies an AI-depth change from -15 to +10 only when that quote appears in the resume and is at least 12 characters. The model cannot change eligibility, the name, the email, or the skills.
+This is the only file that calls a model. It asks for a project summary, strengths, concerns, and one quote copied from the resume. The pipeline applies an AI-depth change from -15 to +10 only when that quote appears in the resume and is at least 12 characters. The model cannot change eligibility, the name, the email, or the skills.
 
-A missing key is `skipped`. A timeout, an empty response, bad JSON, or a rate limit is `failed` on that row only. The deterministic score stays.
+On the saved run the model is not called. Eligible rows are `skipped` and keep the rule-based score. A timeout, an empty response, bad JSON, or a rate limit would be `failed` on that row only.
 
 ### github_enrich.py
 
