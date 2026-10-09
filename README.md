@@ -27,16 +27,6 @@ Python 3.11 or newer is required.
 
 When the run finishes, the terminal prints a short report: batch counts, one line per rejected resume, the ranking table, and two witness lines. The same report is saved as `output/results.txt`. Score details for each person stay in `output/results.json`.
 
-### Detailed PDF
-
-This is a second command. It reads the JSON the screener already wrote. It does not screen the resumes again, and it does not change `output/results.json` or `output/results.txt`.
-
-```bash
-python pdf_report.py --input ./output/results.json --output ./output/results-detailed.pdf
-```
-
-The PDF is the long report: batch counts, the rejected groups, the ranking table, then one section per eligible person with the score breakdown, the evidence line, skills, summary, strengths, concerns, and the model and GitHub notes.
-
 ### Optional keys
 
 A model key and a GitHub token are optional. With no keys, every resume is still scored from its text.
@@ -101,6 +91,43 @@ An eligible row includes:
 A rejected row has `eligible: false`, `rejection_reasons`, and the skills that were found. The model is not called for that person.
 
 On the 50 resumes in `resumes/`, the last run parsed every file: 33 eligible, 17 rejected, 0 failed.
+
+## Detailed PDF (Additional Feature)
+
+An additional feature writes a very detailed result PDF from the JSON the screener already saved. It does not screen the resumes again, and it does not change `output/results.json` or `output/results.txt`.
+
+```bash
+python pdf_report.py --input ./output/results.json --output ./output/results-detailed.pdf
+```
+
+The PDF keeps every metric from that run.
+
+The batch table has five counts: total, parsed, eligible, rejected, and failed. The rejected tables split people into three groups: neither Python nor an AI project; Python with no AI project, with the backend skills that were found; and an AI project with no Python, with those AI skills kept. The ranking table lists rank, score, name, and file for every eligible person.
+
+Each eligible person then has a score table. The five metrics, and their caps, are:
+
+| Metric | Cap | What the row shows |
+| --- | --- | --- |
+| AI / agentic / RAG | 40 | Points, plus the evidence line for the project or skills-list match |
+| Python / backend | 30 | Points for Python, FastAPI, async, PostgreSQL, and Redis |
+| Cloud / full stack | 15 | Points for GCP, Docker, deployment, and React or Next.js when backend work is also present |
+| GitHub | 10 | Points for recent pushes and relevant public repos, or zero when no profile was found |
+| Engineering depth | 5 | Points for testing, architecture, caching, queues, observability, concurrency, and failure handling |
+| Total | 100 | Sum of the five metrics |
+
+Under the table the PDF lists matched skills, the project summary, strengths, concerns, the model status, and the GitHub status.
+
+[Image #4] is the first page: the batch counts, the tie at 80, and the rejected groups.
+
+![Image #4](docs/pdf-1.jpg)
+
+[Image #5] is an eligible person at the top of the ranking. Arunima Saha scores 80, with all five metrics, the evidence lines, skills, summary, strengths, and the model and GitHub lines.
+
+![Image #5](docs/pdf-2.jpg)
+
+[Image #6] is the same table lower in the ranking. Dornipadu Karthika Chaitrika scores 24, with concerns and a GitHub score of 4.
+
+![Image #6](docs/pdf-3.png)
 
 ## Architecture
 
