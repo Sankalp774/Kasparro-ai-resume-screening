@@ -27,6 +27,16 @@ Python 3.11 or newer is required.
 
 When the run finishes, the terminal prints a short report: batch counts, one line per rejected resume, the ranking table, and two witness lines. The same report is saved as `output/results.txt`. Score details for each person stay in `output/results.json`.
 
+### Detailed PDF
+
+This is a second command. It reads the JSON the screener already wrote. It does not screen the resumes again, and it does not change `output/results.json` or `output/results.txt`.
+
+```bash
+python pdf_report.py --input ./output/results.json --output ./output/results-detailed.pdf
+```
+
+The PDF is the long report: batch counts, the rejected groups, the ranking table, then one section per eligible person with the score breakdown, the evidence line, skills, summary, strengths, concerns, and the model and GitHub notes.
+
 ### Optional keys
 
 A model key and a GitHub token are optional. With no keys, every resume is still scored from its text.
@@ -49,7 +59,7 @@ If `LLM_API_KEY` is empty, eligible rows are marked `llm_status: skipped` and ke
 pytest
 ```
 
-The tests check the hard filter, the score caps and penalties, a model quote that is not in the resume, a model call that crashes on one chosen file, GitHub caching and a 404, and a corrupt PDF that does not stop the next file.
+The tests check the hard filter, the score caps and penalties, a model quote that is not in the resume, a model call that crashes on one chosen file, GitHub caching and a 404, a corrupt PDF that does not stop the next file, and a PDF built from saved JSON that leaves that JSON unchanged.
 
 [Image #3] shows that run: 20 tests passed.
 
