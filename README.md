@@ -35,8 +35,8 @@ cp .env.example .env
 
 | Variable | What it does |
 | --- | --- |
-| `LLM_API_KEY` | |
-| `LLM_MODEL` | |
+| `LLM_API_KEY` |(As Per Availability) |
+| `LLM_MODEL` | (As Per Availability)|
 | `GITHUB_TOKEN` | Optional. Raises the public GitHub rate limit. Leave it empty to use the unauthenticated API. |
 
 *(Add a model as per choice.)
