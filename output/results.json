@@ -1,0 +1,2303 @@
+{
+  "batch_summary": {
+    "total": 50,
+    "parsed": 50,
+    "eligible": 33,
+    "rejected": 17,
+    "failed": 0
+  },
+  "reasoning": {
+    "rejected": {
+      "neither_python_nor_ai": [
+        {
+          "filename": "candidate_46.pdf",
+          "candidate_name": "AABHAR GUPTA",
+          "reason": "No Python and no AI project"
+        },
+        {
+          "filename": "candidate_42.pdf",
+          "candidate_name": "ANJALI PATIL",
+          "reason": "No Python and no AI project"
+        },
+        {
+          "filename": "candidate_18.pdf",
+          "candidate_name": "Harshit Kumar Mishra",
+          "reason": "No Python and no AI project"
+        },
+        {
+          "filename": "candidate_01.pdf",
+          "candidate_name": "Kartikay Sinha",
+          "reason": "No Python and no AI project"
+        },
+        {
+          "filename": "candidate_02.pdf",
+          "candidate_name": "SHIVAM RAJ",
+          "reason": "No Python and no AI project"
+        }
+      ],
+      "python_without_ai_project": [
+        {
+          "filename": "candidate_03.pdf",
+          "candidate_name": "Agam Jain",
+          "reason": "No AI project",
+          "noted_skills": [
+            "FastAPI",
+            "PostgreSQL",
+            "Redis"
+          ]
+        },
+        {
+          "filename": "candidate_20.pdf",
+          "candidate_name": null,
+          "reason": "No AI project",
+          "noted_skills": []
+        },
+        {
+          "filename": "candidate_27.pdf",
+          "candidate_name": "Gayathri Palraj",
+          "reason": "No AI project",
+          "noted_skills": []
+        },
+        {
+          "filename": "candidate_14.pdf",
+          "candidate_name": "JAYA NANDI",
+          "reason": "No AI project",
+          "noted_skills": []
+        },
+        {
+          "filename": "candidate_48.pdf",
+          "candidate_name": "NIDHI KM",
+          "reason": "No AI project",
+          "noted_skills": []
+        },
+        {
+          "filename": "candidate_34.pdf",
+          "candidate_name": "NISARGA H. S.",
+          "reason": "No AI project",
+          "noted_skills": []
+        },
+        {
+          "filename": "candidate_45.pdf",
+          "candidate_name": "Parshuram Kumar",
+          "reason": "No AI project",
+          "noted_skills": [
+            "Redis"
+          ]
+        },
+        {
+          "filename": "candidate_31.pdf",
+          "candidate_name": "Shreya Chauhan",
+          "reason": "No AI project",
+          "noted_skills": [
+            "Redis"
+          ]
+        },
+        {
+          "filename": "candidate_05.pdf",
+          "candidate_name": "VISHWAS BADIGER",
+          "reason": "No AI project",
+          "noted_skills": []
+        },
+        {
+          "filename": "candidate_04.pdf",
+          "candidate_name": "Yuvaraj R",
+          "reason": "No AI project",
+          "noted_skills": [
+            "PostgreSQL"
+          ]
+        }
+      ],
+      "ai_without_python": [
+        {
+          "filename": "candidate_11.pdf",
+          "candidate_name": "MD AZIZUL ISLAM",
+          "reason": "No Python",
+          "skills_kept": [
+            "RAG",
+            "embeddings",
+            "vector search",
+            "OpenAI",
+            "LLM"
+          ]
+        },
+        {
+          "filename": "candidate_32.pdf",
+          "candidate_name": "Mukul Pal",
+          "reason": "No Python",
+          "skills_kept": [
+            "OpenAI",
+            "LLM"
+          ]
+        }
+      ]
+    },
+    "ranking": {
+      "top_score": 80,
+      "tied_for_first": [
+        "ARUNIMA SAHA"
+      ],
+      "note": "ARUNIMA SAHA ranks first with 80."
+    },
+    "witnesses": {
+      "llm": "No model key was set. Every eligible row is llm_status: skipped.",
+      "github": {
+        "checked": 14,
+        "scored": 0,
+        "failed": 14,
+        "note": "Checked 14 profiles. 0 returned a score. 14 failures recorded as 0."
+      }
+    },
+    "failed_files": [],
+    "reliability": "A witness failure on one resume keeps that person's deterministic score. A corrupt PDF is recorded as failed without stopping the batch."
+  },
+  "candidates": [
+    {
+      "rank": 1,
+      "filename": "candidate_43.pdf",
+      "candidate_name": "ARUNIMA SAHA",
+      "email": "arunimasaha11@gmail.com",
+      "eligible": true,
+      "status": "parsed",
+      "total_score": 80,
+      "score_breakdown": {
+        "ai_project_depth": 40,
+        "python_backend": 24,
+        "cloud_fullstack": 15,
+        "github": 0,
+        "engineering_depth": 1
+      },
+      "score_evidence": {
+        "ai_project_depth": "AI project evidence: LangChain, LangGraph, RAG, vector search, Pinecone, tool calling, multi-agent, agent, OpenAI, Gen AI, LLM (+16); retrieval (+6); tool calling (+6); state (+4); orchestration (+6); backend logic (+4)",
+        "python_backend": "Python in project/work (+12); FastAPI in project/work (+8); PostgreSQL in project/work (+4)",
+        "cloud_fullstack": "GCP in project/work (+6); Docker in project/work (+5); deployment in project/work (+4)",
+        "github": "No GitHub profile on resume",
+        "engineering_depth": "Engineering signals: observability"
+      },
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "Docker",
+        "GCP",
+        "LangChain",
+        "LangGraph",
+        "RAG",
+        "embeddings",
+        "vector search",
+        "Pinecone",
+        "tool calling",
+        "multi-agent",
+        "agent",
+        "OpenAI",
+        "Gen AI",
+        "LLM",
+        "transformers"
+      ],
+      "project_summary": "Deterministic read: AI depth 40/40, Python backend 24/30, cloud 15/15, engineering 1/5. GitHub is scored separately.",
+      "github_summary": "No GitHub profile on resume",
+      "github_status": "missing",
+      "llm_status": "skipped",
+      "llm_note": "No LLM_API_KEY or XAI_API_KEY set. Deterministic score kept.",
+      "strengths": [
+        "Strong AI project evidence in the resume text",
+        "Python backend evidence in a project or internship",
+        "Cloud or deployment evidence"
+      ],
+      "concerns": [],
+      "rejection_reasons": [],
+      "error": null
+    },
+    {
+      "rank": 2,
+      "filename": "candidate_22.pdf",
+      "candidate_name": "PRAJWAL A S",
+      "email": "prajwalas8999@gmail.com",
+      "eligible": true,
+      "status": "parsed",
+      "total_score": 75,
+      "score_breakdown": {
+        "ai_project_depth": 38,
+        "python_backend": 28,
+        "cloud_fullstack": 7,
+        "github": 0,
+        "engineering_depth": 2
+      },
+      "score_evidence": {
+        "ai_project_depth": "AI project evidence: LangChain, LangGraph, RAG, vector search, tool calling, multi-agent, agent, LLM (+16); retrieval (+6); tool calling (+6); orchestration (+6); backend logic (+4)",
+        "python_backend": "Python in project/work (+12); FastAPI in project/work (+8); async in project/work (+4); PostgreSQL in project/work (+4)",
+        "cloud_fullstack": "deployment in project/work (+4); React or Next.js inside a system that also has backend or deploy evidence (+3)",
+        "github": "GitHub enrichment failed (HTTP 403). Score left at 0.",
+        "engineering_depth": "Engineering signals: architecture, observability"
+      },
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "async",
+        "PostgreSQL",
+        "React",
+        "LangChain",
+        "LangGraph",
+        "RAG",
+        "embeddings",
+        "vector search",
+        "tool calling",
+        "multi-agent",
+        "agent",
+        "Gen AI",
+        "LLM",
+        "JavaScript"
+      ],
+      "project_summary": "Deterministic read: AI depth 38/40, Python backend 28/30, cloud 7/15, engineering 2/5. GitHub is scored separately.",
+      "github_summary": "GitHub enrichment failed (HTTP 403). Score left at 0.",
+      "github_status": "failed",
+      "llm_status": "skipped",
+      "llm_note": "No LLM_API_KEY or XAI_API_KEY set. Deterministic score kept.",
+      "strengths": [
+        "Strong AI project evidence in the resume text",
+        "Python backend evidence in a project or internship"
+      ],
+      "concerns": [],
+      "rejection_reasons": [],
+      "error": null
+    },
+    {
+      "rank": 3,
+      "filename": "candidate_35.pdf",
+      "candidate_name": "Prathamesh Patil",
+      "email": "prathameshpatil330@gmail.com",
+      "eligible": true,
+      "status": "parsed",
+      "total_score": 74,
+      "score_breakdown": {
+        "ai_project_depth": 32,
+        "python_backend": 26,
+        "cloud_fullstack": 12,
+        "github": 0,
+        "engineering_depth": 4
+      },
+      "score_evidence": {
+        "ai_project_depth": "AI project evidence: LangGraph, RAG, embeddings, vector search, Chroma, multi-agent, agent, LLM (+16); retrieval (+6); orchestration (+6); backend logic (+4)",
+        "python_backend": "Python in project/work (+12); FastAPI in project/work (+8); PostgreSQL in project/work (+4); Redis in project/work (+2)",
+        "cloud_fullstack": "Docker in project/work (+5); deployment in project/work (+4); React or Next.js inside a system that also has backend or deploy evidence (+3)",
+        "github": "No GitHub profile on resume",
+        "engineering_depth": "Engineering signals: testing, caching, queues, observability"
+      },
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "Redis",
+        "Docker",
+        "React",
+        "Next.js",
+        "LangGraph",
+        "RAG",
+        "embeddings",
+        "vector search",
+        "Chroma",
+        "multi-agent",
+        "agent",
+        "LLM",
+        "JavaScript"
+      ],
+      "project_summary": "Deterministic read: AI depth 32/40, Python backend 26/30, cloud 12/15, engineering 4/5. GitHub is scored separately.",
+      "github_summary": "No GitHub profile on resume",
+      "github_status": "missing",
+      "llm_status": "skipped",
+      "llm_note": "No LLM_API_KEY or XAI_API_KEY set. Deterministic score kept.",
+      "strengths": [
+        "Strong AI project evidence in the resume text",
+        "Python backend evidence in a project or internship",
+        "Cloud or deployment evidence",
+        "Several engineering-depth signals"
+      ],
+      "concerns": [],
+      "rejection_reasons": [],
+      "error": null
+    },
+    {
+      "rank": 4,
+      "filename": "candidate_28.pdf",
+      "candidate_name": "Sumaiya Sultana Shaik",
+      "email": "sultanasumaiya623@gmail.com",
+      "eligible": true,
+      "status": "parsed",
+      "total_score": 74,
+      "score_breakdown": {
+        "ai_project_depth": 32,
+        "python_backend": 24,
+        "cloud_fullstack": 15,
+        "github": 0,
+        "engineering_depth": 3
+      },
+      "score_evidence": {
+        "ai_project_depth": "AI project evidence: LangChain, RAG, multi-agent, agent, LLM (+16); retrieval (+6); orchestration (+6); backend logic (+4)",
+        "python_backend": "Python in project/work (+12); FastAPI in project/work (+8); PostgreSQL in project/work (+4)",
+        "cloud_fullstack": "GCP in project/work (+6); Docker in project/work (+5); deployment on a skills list (+1); React or Next.js inside a system that also has backend or deploy evidence (+3)",
+        "github": "No GitHub profile on resume",
+        "engineering_depth": "Engineering signals: testing, architecture, failure handling"
+      },
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "Docker",
+        "GCP",
+        "React",
+        "LangChain",
+        "LangGraph",
+        "RAG",
+        "multi-agent",
+        "agent",
+        "LLM",
+        "Java"
+      ],
+      "project_summary": "Deterministic read: AI depth 32/40, Python backend 24/30, cloud 15/15, engineering 3/5. GitHub is scored separately.",
+      "github_summary": "No GitHub profile on resume",
+      "github_status": "missing",
+      "llm_status": "skipped",
+      "llm_note": "No LLM_API_KEY or XAI_API_KEY set. Deterministic score kept.",
+      "strengths": [
+        "Strong AI project evidence in the resume text",
+        "Python backend evidence in a project or internship",
+        "Cloud or deployment evidence",
+        "Several engineering-depth signals"
+      ],
+      "concerns": [],
+      "rejection_reasons": [],
+      "error": null
+    },
+    {
+      "rank": 5,
+      "filename": "candidate_13.pdf",
+      "candidate_name": "Yash Maini",
+      "email": "mainiyash2@gmail.com",
+      "eligible": true,
+      "status": "parsed",
+      "total_score": 74,
+      "score_breakdown": {
+        "ai_project_depth": 32,
+        "python_backend": 28,
+        "cloud_fullstack": 11,
+        "github": 0,
+        "engineering_depth": 3
+      },
+      "score_evidence": {
+        "ai_project_depth": "AI project evidence: LangGraph, tool calling, agent, OpenAI, Gen AI, LLM (+16); tool calling (+6); orchestration (+6); backend logic (+4)",
+        "python_backend": "Python in project/work (+12); FastAPI in project/work (+8); async in project/work (+4); PostgreSQL in project/work (+4)",
+        "cloud_fullstack": "GCP on a skills list (+2); Docker in project/work (+5); deployment in project/work (+4)",
+        "github": "GitHub enrichment failed (HTTP 403). Score left at 0.",
+        "engineering_depth": "Engineering signals: observability, concurrency, failure handling"
+      },
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "async",
+        "PostgreSQL",
+        "Docker",
+        "GCP",
+        "LangChain",
+        "LangGraph",
+        "RAG",
+        "embeddings",
+        "vector search",
+        "FAISS",
+        "Pinecone",
+        "tool calling",
+        "multi-agent",
+        "agent",
+        "OpenAI",
+        "Gen AI",
+        "LLM"
+      ],
+      "project_summary": "Deterministic read: AI depth 32/40, Python backend 28/30, cloud 11/15, engineering 3/5. GitHub is scored separately.",
+      "github_summary": "GitHub enrichment failed (HTTP 403). Score left at 0.",
+      "github_status": "failed",
+      "llm_status": "skipped",
+      "llm_note": "No LLM_API_KEY or XAI_API_KEY set. Deterministic score kept.",
+      "strengths": [
+        "Strong AI project evidence in the resume text",
+        "Python backend evidence in a project or internship",
+        "Cloud or deployment evidence",
+        "Several engineering-depth signals"
+      ],
+      "concerns": [],
+      "rejection_reasons": [],
+      "error": null
+    },
+    {
+      "rank": 6,
+      "filename": "candidate_41.pdf",
+      "candidate_name": "Hari Shanker Sharma",
+      "email": "harishankersharma648@gmail.com",
+      "eligible": true,
+      "status": "parsed",
+      "total_score": 70,
+      "score_breakdown": {
+        "ai_project_depth": 32,
+        "python_backend": 23,
+        "cloud_fullstack": 12,
+        "github": 0,
+        "engineering_depth": 3
+      },
+      "score_evidence": {
+        "ai_project_depth": "AI project evidence: LangChain, RAG, agent, LLM (+16); retrieval (+6); orchestration (+6); backend logic (+4)",
+        "python_backend": "Python in project/work (+12); FastAPI in project/work (+8); async on a skills list (+1); PostgreSQL on a skills list (+1); Redis on a skills list (+1)",
+        "cloud_fullstack": "Docker in project/work (+5); deployment in project/work (+4); React or Next.js inside a system that also has backend or deploy evidence (+3)",
+        "github": "No GitHub profile on resume",
+        "engineering_depth": "Engineering signals: testing, architecture, observability"
+      },
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "async",
+        "PostgreSQL",
+        "Redis",
+        "Docker",
+        "React",
+        "Next.js",
+        "LangChain",
+        "LangGraph",
+        "RAG",
+        "embeddings",
+        "vector search",
+        "tool calling",
+        "agent",
+        "LLM",
+        "Hugging Face",
+        "Java",
+        "JavaScript"
+      ],
+      "project_summary": "Deterministic read: AI depth 32/40, Python backend 23/30, cloud 12/15, engineering 3/5. GitHub is scored separately.",
+      "github_summary": "No GitHub profile on resume",
+      "github_status": "missing",
+      "llm_status": "skipped",
+      "llm_note": "No LLM_API_KEY or XAI_API_KEY set. Deterministic score kept.",
+      "strengths": [
+        "Strong AI project evidence in the resume text",
+        "Python backend evidence in a project or internship",
+        "Cloud or deployment evidence",
+        "Several engineering-depth signals"
+      ],
+      "concerns": [],
+      "rejection_reasons": [],
+      "error": null
+    },
+    {
+      "rank": 7,
+      "filename": "candidate_30.pdf",
+      "candidate_name": "V Sree Raghu Vardhan",
+      "email": "vardhanvsr2004@gmail.com",
+      "eligible": true,
+      "status": "parsed",
+      "total_score": 70,
+      "score_breakdown": {
+        "ai_project_depth": 32,
+        "python_backend": 24,
+        "cloud_fullstack": 9,
+        "github": 0,
+        "engineering_depth": 5
+      },
+      "score_evidence": {
+        "ai_project_depth": "AI project evidence: LangChain, RAG, embeddings, agent, OpenAI, LLM (+16); retrieval (+6); orchestration (+6); backend logic (+4)",
+        "python_backend": "Python in project/work (+12); FastAPI in project/work (+8); async on a skills list (+1); PostgreSQL on a skills list (+1); Redis in project/work (+2)",
+        "cloud_fullstack": "Docker on a skills list (+2); deployment in project/work (+4); React or Next.js inside a system that also has backend or deploy evidence (+3)",
+        "github": "No GitHub profile on resume",
+        "engineering_depth": "Engineering signals: testing, architecture, caching, concurrency, failure handling"
+      },
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "async",
+        "PostgreSQL",
+        "Redis",
+        "Docker",
+        "React",
+        "LangChain",
+        "LangGraph",
+        "RAG",
+        "embeddings",
+        "vector search",
+        "Pinecone",
+        "agent",
+        "OpenAI",
+        "LLM",
+        "Java",
+        "JavaScript"
+      ],
+      "project_summary": "Deterministic read: AI depth 32/40, Python backend 24/30, cloud 9/15, engineering 5/5. GitHub is scored separately.",
+      "github_summary": "No GitHub profile on resume",
+      "github_status": "missing",
+      "llm_status": "skipped",
+      "llm_note": "No LLM_API_KEY or XAI_API_KEY set. Deterministic score kept.",
+      "strengths": [
+        "Strong AI project evidence in the resume text",
+        "Python backend evidence in a project or internship",
+        "Cloud or deployment evidence",
+        "Several engineering-depth signals"
+      ],
+      "concerns": [],
+      "rejection_reasons": [],
+      "error": null
+    },
+    {
+      "rank": 8,
+      "filename": "candidate_50.pdf",
+      "candidate_name": "Nevil Jasmin Mehta",
+      "email": "nevilmehta5@gmail.com",
+      "eligible": true,
+      "status": "parsed",
+      "total_score": 67,
+      "score_breakdown": {
+        "ai_project_depth": 26,
+        "python_backend": 30,
+        "cloud_fullstack": 9,
+        "github": 0,
+        "engineering_depth": 2
+      },
+      "score_evidence": {
+        "ai_project_depth": "AI project evidence: RAG, embeddings, vector search, LLM, transformers (+16); retrieval (+6); backend logic (+4)",
+        "python_backend": "Python in project/work (+12); FastAPI in project/work (+8); async in project/work (+4); PostgreSQL in project/work (+4); Redis in project/work (+2)",
+        "cloud_fullstack": "Docker on a skills list (+2); deployment in project/work (+4); React or Next.js inside a system that also has backend or deploy evidence (+3)",
+        "github": "No GitHub profile on resume",
+        "engineering_depth": "Engineering signals: architecture, queues"
+      },
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "async",
+        "PostgreSQL",
+        "Redis",
+        "Docker",
+        "React",
+        "RAG",
+        "embeddings",
+        "vector search",
+        "LLM",
+        "transformers",
+        "Java",
+        "JavaScript"
+      ],
+      "project_summary": "Deterministic read: AI depth 26/40, Python backend 30/30, cloud 9/15, engineering 2/5. GitHub is scored separately.",
+      "github_summary": "No GitHub profile on resume",
+      "github_status": "missing",
+      "llm_status": "skipped",
+      "llm_note": "No LLM_API_KEY or XAI_API_KEY set. Deterministic score kept.",
+      "strengths": [
+        "Python backend evidence in a project or internship",
+        "Cloud or deployment evidence"
+      ],
+      "concerns": [],
+      "rejection_reasons": [],
+      "error": null
+    },
+    {
+      "rank": 9,
+      "filename": "candidate_33.pdf",
+      "candidate_name": "Vaibhav Wakde",
+      "email": "wakde266@gmail.com",
+      "eligible": true,
+      "status": "parsed",
+      "total_score": 66,
+      "score_breakdown": {
+        "ai_project_depth": 38,
+        "python_backend": 21,
+        "cloud_fullstack": 6,
+        "github": 0,
+        "engineering_depth": 1
+      },
+      "score_evidence": {
+        "ai_project_depth": "AI project evidence: LangChain, LangGraph, LlamaIndex, RAG, embeddings, tool calling, agent, LLM, Hugging Face (+16); retrieval (+6); tool calling (+6); orchestration (+6); backend logic (+4)",
+        "python_backend": "Python in project/work (+12); FastAPI in project/work (+8); async on a skills list (+1)",
+        "cloud_fullstack": "Docker on a skills list (+2); deployment in project/work (+4)",
+        "github": "No GitHub profile on resume",
+        "engineering_depth": "Engineering signals: caching"
+      },
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "async",
+        "Docker",
+        "LangChain",
+        "LangGraph",
+        "LlamaIndex",
+        "RAG",
+        "embeddings",
+        "Chroma",
+        "tool calling",
+        "agent",
+        "OpenAI",
+        "LLM",
+        "Hugging Face",
+        "transformers",
+        "JavaScript"
+      ],
+      "project_summary": "Deterministic read: AI depth 38/40, Python backend 21/30, cloud 6/15, engineering 1/5. GitHub is scored separately.",
+      "github_summary": "No GitHub profile on resume",
+      "github_status": "missing",
+      "llm_status": "skipped",
+      "llm_note": "No LLM_API_KEY or XAI_API_KEY set. Deterministic score kept.",
+      "strengths": [
+        "Strong AI project evidence in the resume text",
+        "Python backend evidence in a project or internship"
+      ],
+      "concerns": [],
+      "rejection_reasons": [],
+      "error": null
+    },
+    {
+      "rank": 10,
+      "filename": "candidate_08.pdf",
+      "candidate_name": "Arjun Kumar",
+      "email": "roy.prajapat.143@gmail.com",
+      "eligible": true,
+      "status": "parsed",
+      "total_score": 65,
+      "score_breakdown": {
+        "ai_project_depth": 32,
+        "python_backend": 28,
+        "cloud_fullstack": 3,
+        "github": 0,
+        "engineering_depth": 2
+      },
+      "score_evidence": {
+        "ai_project_depth": "AI project evidence: LangChain, LangGraph, embeddings, transformers (+16); retrieval (+6); orchestration (+6); backend logic (+4)",
+        "python_backend": "Python in project/work (+12); FastAPI in project/work (+8); async in project/work (+4); PostgreSQL in project/work (+4)",
+        "cloud_fullstack": "React or Next.js inside a system that also has backend or deploy evidence (+3)",
+        "github": "GitHub enrichment failed (HTTP 403). Score left at 0.",
+        "engineering_depth": "Engineering signals: queues, concurrency"
+      },
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "async",
+        "PostgreSQL",
+        "React",
+        "Next.js",
+        "LangChain",
+        "LangGraph",
+        "RAG",
+        "embeddings",
+        "Gen AI",
+        "LLM",
+        "Hugging Face",
+        "transformers",
+        "Java",
+        "JavaScript"
+      ],
+      "project_summary": "Deterministic read: AI depth 32/40, Python backend 28/30, cloud 3/15, engineering 2/5. GitHub is scored separately.",
+      "github_summary": "GitHub enrichment failed (HTTP 403). Score left at 0.",
+      "github_status": "failed",
+      "llm_status": "skipped",
+      "llm_note": "No LLM_API_KEY or XAI_API_KEY set. Deterministic score kept.",
+      "strengths": [
+        "Strong AI project evidence in the resume text",
+        "Python backend evidence in a project or internship"
+      ],
+      "concerns": [],
+      "rejection_reasons": [],
+      "error": null
+    },
+    {
+      "rank": 11,
+      "filename": "candidate_07.pdf",
+      "candidate_name": "Jyandeep Baishya",
+      "email": "craftzyan@gmail.com",
+      "eligible": true,
+      "status": "parsed",
+      "total_score": 65,
+      "score_breakdown": {
+        "ai_project_depth": 38,
+        "python_backend": 22,
+        "cloud_fullstack": 3,
+        "github": 0,
+        "engineering_depth": 2
+      },
+      "score_evidence": {
+        "ai_project_depth": "AI project evidence: LangGraph, RAG, Chroma, tool calling, multi-agent, agent, LLM (+16); retrieval (+6); tool calling (+6); orchestration (+6); backend logic (+4)",
+        "python_backend": "Python in project/work (+12); FastAPI in project/work (+8); Redis in project/work (+2)",
+        "cloud_fullstack": "React or Next.js inside a system that also has backend or deploy evidence (+3)",
+        "github": "No GitHub profile on resume",
+        "engineering_depth": "Engineering signals: architecture, caching"
+      },
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "Redis",
+        "React",
+        "Next.js",
+        "LangChain",
+        "LangGraph",
+        "RAG",
+        "Chroma",
+        "tool calling",
+        "multi-agent",
+        "agent",
+        "LLM",
+        "JavaScript"
+      ],
+      "project_summary": "Deterministic read: AI depth 38/40, Python backend 22/30, cloud 3/15, engineering 2/5. GitHub is scored separately.",
+      "github_summary": "No GitHub profile on resume",
+      "github_status": "missing",
+      "llm_status": "skipped",
+      "llm_note": "No LLM_API_KEY or XAI_API_KEY set. Deterministic score kept.",
+      "strengths": [
+        "Strong AI project evidence in the resume text",
+        "Python backend evidence in a project or internship"
+      ],
+      "concerns": [],
+      "rejection_reasons": [],
+      "error": null
+    },
+    {
+      "rank": 12,
+      "filename": "candidate_16.pdf",
+      "candidate_name": "PRIYANSHU KUMAR",
+      "email": "krpriyanshu2805@gmail.com",
+      "eligible": true,
+      "status": "parsed",
+      "total_score": 65,
+      "score_breakdown": {
+        "ai_project_depth": 38,
+        "python_backend": 18,
+        "cloud_fullstack": 7,
+        "github": 0,
+        "engineering_depth": 2
+      },
+      "score_evidence": {
+        "ai_project_depth": "AI project evidence: LangGraph, RAG, embeddings, Pinecone, tool calling, multi-agent, agent, LLM (+16); retrieval (+6); tool calling (+6); orchestration (+6); backend logic (+4)",
+        "python_backend": "Python on a skills list (+6); FastAPI in project/work (+8); PostgreSQL in project/work (+4)",
+        "cloud_fullstack": "deployment in project/work (+4); React or Next.js inside a system that also has backend or deploy evidence (+3)",
+        "github": "No GitHub profile on resume",
+        "engineering_depth": "Engineering signals: architecture, queues"
+      },
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "React",
+        "LangChain",
+        "LangGraph",
+        "RAG",
+        "embeddings",
+        "vector search",
+        "Pinecone",
+        "tool calling",
+        "multi-agent",
+        "agent",
+        "LLM",
+        "JavaScript"
+      ],
+      "project_summary": "Deterministic read: AI depth 38/40, Python backend 18/30, cloud 7/15, engineering 2/5. GitHub is scored separately.",
+      "github_summary": "No GitHub profile on resume",
+      "github_status": "missing",
+      "llm_status": "skipped",
+      "llm_note": "No LLM_API_KEY or XAI_API_KEY set. Deterministic score kept.",
+      "strengths": [
+        "Strong AI project evidence in the resume text",
+        "Python backend evidence in a project or internship"
+      ],
+      "concerns": [],
+      "rejection_reasons": [],
+      "error": null
+    },
+    {
+      "rank": 13,
+      "filename": "candidate_37.pdf",
+      "candidate_name": "Aditi Kala",
+      "email": "aditi25.kala@gmail.com",
+      "eligible": true,
+      "status": "parsed",
+      "total_score": 63,
+      "score_breakdown": {
+        "ai_project_depth": 26,
+        "python_backend": 21,
+        "cloud_fullstack": 14,
+        "github": 0,
+        "engineering_depth": 2
+      },
+      "score_evidence": {
+        "ai_project_depth": "AI project evidence: agent, LLM (+16); orchestration (+6); backend logic (+4)",
+        "python_backend": "Python in project/work (+12); FastAPI in project/work (+8); PostgreSQL on a skills list (+1)",
+        "cloud_fullstack": "GCP in project/work (+6); Docker in project/work (+5); React or Next.js inside a system that also has backend or deploy evidence (+3)",
+        "github": "GitHub enrichment failed (HTTP 403). Score left at 0.",
+        "engineering_depth": "Engineering signals: testing, concurrency"
+      },
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "Docker",
+        "GCP",
+        "React",
+        "Next.js",
+        "agent",
+        "LLM",
+        "Java",
+        "JavaScript"
+      ],
+      "project_summary": "Deterministic read: AI depth 26/40, Python backend 21/30, cloud 14/15, engineering 2/5. GitHub is scored separately.",
+      "github_summary": "GitHub enrichment failed (HTTP 403). Score left at 0.",
+      "github_status": "failed",
+      "llm_status": "skipped",
+      "llm_note": "No LLM_API_KEY or XAI_API_KEY set. Deterministic score kept.",
+      "strengths": [
+        "Python backend evidence in a project or internship",
+        "Cloud or deployment evidence"
+      ],
+      "concerns": [],
+      "rejection_reasons": [],
+      "error": null
+    },
+    {
+      "rank": 14,
+      "filename": "candidate_47.pdf",
+      "candidate_name": "Kiran Naregal",
+      "email": "kirnaregal7@gmail.com",
+      "eligible": true,
+      "status": "parsed",
+      "total_score": 62,
+      "score_breakdown": {
+        "ai_project_depth": 32,
+        "python_backend": 20,
+        "cloud_fullstack": 9,
+        "github": 0,
+        "engineering_depth": 1
+      },
+      "score_evidence": {
+        "ai_project_depth": "AI project evidence: LangChain, LangGraph, RAG, multi-agent, agent, OpenAI, LLM, Hugging Face (+16); retrieval (+6); orchestration (+6); backend logic (+4)",
+        "python_backend": "Python in project/work (+12); FastAPI in project/work (+8)",
+        "cloud_fullstack": "Docker on a skills list (+2); deployment in project/work (+4); React or Next.js inside a system that also has backend or deploy evidence (+3)",
+        "github": "GitHub enrichment failed (HTTP 403). Score left at 0.",
+        "engineering_depth": "Engineering signals: architecture"
+      },
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "Docker",
+        "React",
+        "Next.js",
+        "LangChain",
+        "LangGraph",
+        "RAG",
+        "multi-agent",
+        "agent",
+        "OpenAI",
+        "LLM",
+        "Hugging Face",
+        "transformers",
+        "JavaScript"
+      ],
+      "project_summary": "Deterministic read: AI depth 32/40, Python backend 20/30, cloud 9/15, engineering 1/5. GitHub is scored separately.",
+      "github_summary": "GitHub enrichment failed (HTTP 403). Score left at 0.",
+      "github_status": "failed",
+      "llm_status": "skipped",
+      "llm_note": "No LLM_API_KEY or XAI_API_KEY set. Deterministic score kept.",
+      "strengths": [
+        "Strong AI project evidence in the resume text",
+        "Python backend evidence in a project or internship",
+        "Cloud or deployment evidence"
+      ],
+      "concerns": [],
+      "rejection_reasons": [],
+      "error": null
+    },
+    {
+      "rank": 15,
+      "filename": "candidate_40.pdf",
+      "candidate_name": "RAJ THUMAR",
+      "email": "thumarraj999@gmail.com",
+      "eligible": true,
+      "status": "parsed",
+      "total_score": 60,
+      "score_breakdown": {
+        "ai_project_depth": 32,
+        "python_backend": 18,
+        "cloud_fullstack": 5,
+        "github": 0,
+        "engineering_depth": 5
+      },
+      "score_evidence": {
+        "ai_project_depth": "AI project evidence: RAG, OpenAI, LLM (+16); retrieval (+6); orchestration (+6); backend logic (+4)",
+        "python_backend": "Python in project/work (+12); PostgreSQL in project/work (+4); Redis in project/work (+2)",
+        "cloud_fullstack": "Docker on a skills list (+2); React or Next.js inside a system that also has backend or deploy evidence (+3)",
+        "github": "No GitHub profile on resume",
+        "engineering_depth": "Engineering signals: architecture, caching, queues, observability, failure handling"
+      },
+      "matched_skills": [
+        "Python",
+        "PostgreSQL",
+        "Redis",
+        "Docker",
+        "React",
+        "RAG",
+        "OpenAI",
+        "LLM",
+        "JavaScript"
+      ],
+      "project_summary": "Deterministic read: AI depth 32/40, Python backend 18/30, cloud 5/15, engineering 5/5. GitHub is scored separately.",
+      "github_summary": "No GitHub profile on resume",
+      "github_status": "missing",
+      "llm_status": "skipped",
+      "llm_note": "No LLM_API_KEY or XAI_API_KEY set. Deterministic score kept.",
+      "strengths": [
+        "Strong AI project evidence in the resume text",
+        "Python backend evidence in a project or internship",
+        "Several engineering-depth signals"
+      ],
+      "concerns": [],
+      "rejection_reasons": [],
+      "error": null
+    },
+    {
+      "rank": 16,
+      "filename": "candidate_10.pdf",
+      "candidate_name": "ABHINAV MISHRA",
+      "email": "abhinavmishra3322@gmail.com",
+      "eligible": true,
+      "status": "parsed",
+      "total_score": 59,
+      "score_breakdown": {
+        "ai_project_depth": 26,
+        "python_backend": 26,
+        "cloud_fullstack": 3,
+        "github": 0,
+        "engineering_depth": 4
+      },
+      "score_evidence": {
+        "ai_project_depth": "AI project evidence: LangGraph, agent, OpenAI (+16); orchestration (+6); backend logic (+4)",
+        "python_backend": "Python in project/work (+12); FastAPI in project/work (+8); PostgreSQL in project/work (+4); Redis in project/work (+2)",
+        "cloud_fullstack": "React or Next.js inside a system that also has backend or deploy evidence (+3)",
+        "github": "GitHub enrichment failed (HTTP 403). Score left at 0.",
+        "engineering_depth": "Engineering signals: testing, caching, observability, failure handling"
+      },
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "Redis",
+        "React",
+        "Next.js",
+        "LangGraph",
+        "RAG",
+        "agent",
+        "OpenAI",
+        "JavaScript"
+      ],
+      "project_summary": "Deterministic read: AI depth 26/40, Python backend 26/30, cloud 3/15, engineering 4/5. GitHub is scored separately.",
+      "github_summary": "GitHub enrichment failed (HTTP 403). Score left at 0.",
+      "github_status": "failed",
+      "llm_status": "skipped",
+      "llm_note": "No LLM_API_KEY or XAI_API_KEY set. Deterministic score kept.",
+      "strengths": [
+        "Python backend evidence in a project or internship",
+        "Several engineering-depth signals"
+      ],
+      "concerns": [],
+      "rejection_reasons": [],
+      "error": null
+    },
+    {
+      "rank": 17,
+      "filename": "candidate_15.pdf",
+      "candidate_name": "HARSHA A",
+      "email": "harshaarun2608@gmail.com",
+      "eligible": true,
+      "status": "parsed",
+      "total_score": 58,
+      "score_breakdown": {
+        "ai_project_depth": 26,
+        "python_backend": 24,
+        "cloud_fullstack": 8,
+        "github": 0,
+        "engineering_depth": 0
+      },
+      "score_evidence": {
+        "ai_project_depth": "AI project evidence: embeddings, vector search (+16); retrieval (+6); backend logic (+4)",
+        "python_backend": "Python in project/work (+12); FastAPI in project/work (+8); PostgreSQL in project/work (+4)",
+        "cloud_fullstack": "Docker in project/work (+5); React or Next.js inside a system that also has backend or deploy evidence (+3)",
+        "github": "No GitHub profile on resume",
+        "engineering_depth": "No testing, architecture, caching, queue, observability, concurrency, or failure-handling evidence"
+      },
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "Docker",
+        "React",
+        "embeddings",
+        "vector search",
+        "Gen AI",
+        "Java",
+        "JavaScript"
+      ],
+      "project_summary": "Deterministic read: AI depth 26/40, Python backend 24/30, cloud 8/15, engineering 0/5. GitHub is scored separately.",
+      "github_summary": "No GitHub profile on resume",
+      "github_status": "missing",
+      "llm_status": "skipped",
+      "llm_note": "No LLM_API_KEY or XAI_API_KEY set. Deterministic score kept.",
+      "strengths": [
+        "Python backend evidence in a project or internship",
+        "Cloud or deployment evidence"
+      ],
+      "concerns": [
+        "No testing, architecture, or reliability signals"
+      ],
+      "rejection_reasons": [],
+      "error": null
+    },
+    {
+      "rank": 18,
+      "filename": "candidate_44.pdf",
+      "candidate_name": "Vivek Chimnani",
+      "email": "vivekchimnani4231@gmail.com",
+      "eligible": true,
+      "status": "parsed",
+      "total_score": 58,
+      "score_breakdown": {
+        "ai_project_depth": 26,
+        "python_backend": 20,
+        "cloud_fullstack": 8,
+        "github": 0,
+        "engineering_depth": 4
+      },
+      "score_evidence": {
+        "ai_project_depth": "AI project evidence: LangGraph, LLM (+16); orchestration (+6); backend logic (+4)",
+        "python_backend": "Python on a skills list (+6); FastAPI in project/work (+8); PostgreSQL in project/work (+4); Redis in project/work (+2)",
+        "cloud_fullstack": "Docker in project/work (+5); React or Next.js inside a system that also has backend or deploy evidence (+3)",
+        "github": "GitHub enrichment failed (HTTP 403). Score left at 0.",
+        "engineering_depth": "Engineering signals: architecture, queues, observability, concurrency"
+      },
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "Redis",
+        "Docker",
+        "React",
+        "Next.js",
+        "LangGraph",
+        "agent",
+        "LLM",
+        "JavaScript"
+      ],
+      "project_summary": "Deterministic read: AI depth 26/40, Python backend 20/30, cloud 8/15, engineering 4/5. GitHub is scored separately.",
+      "github_summary": "GitHub enrichment failed (HTTP 403). Score left at 0.",
+      "github_status": "failed",
+      "llm_status": "skipped",
+      "llm_note": "No LLM_API_KEY or XAI_API_KEY set. Deterministic score kept.",
+      "strengths": [
+        "Python backend evidence in a project or internship",
+        "Cloud or deployment evidence",
+        "Several engineering-depth signals"
+      ],
+      "concerns": [],
+      "rejection_reasons": [],
+      "error": null
+    },
+    {
+      "rank": 19,
+      "filename": "candidate_12.pdf",
+      "candidate_name": "SHUBHANSHU NAVADIYA",
+      "email": "subhnavadiya@gmail.com",
+      "eligible": true,
+      "status": "parsed",
+      "total_score": 57,
+      "score_breakdown": {
+        "ai_project_depth": 32,
+        "python_backend": 20,
+        "cloud_fullstack": 4,
+        "github": 0,
+        "engineering_depth": 1
+      },
+      "score_evidence": {
+        "ai_project_depth": "AI project evidence: LangChain, LlamaIndex, RAG, multi-agent, agent, LLM (+16); retrieval (+6); orchestration (+6); backend logic (+4)",
+        "python_backend": "Python in project/work (+12); FastAPI in project/work (+8)",
+        "cloud_fullstack": "deployment in project/work (+4)",
+        "github": "No GitHub profile on resume",
+        "engineering_depth": "Engineering signals: testing"
+      },
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "LangChain",
+        "LlamaIndex",
+        "RAG",
+        "embeddings",
+        "multi-agent",
+        "agent",
+        "OpenAI",
+        "Gen AI",
+        "LLM",
+        "Hugging Face",
+        "transformers"
+      ],
+      "project_summary": "Deterministic read: AI depth 32/40, Python backend 20/30, cloud 4/15, engineering 1/5. GitHub is scored separately.",
+      "github_summary": "No GitHub profile on resume",
+      "github_status": "missing",
+      "llm_status": "skipped",
+      "llm_note": "No LLM_API_KEY or XAI_API_KEY set. Deterministic score kept.",
+      "strengths": [
+        "Strong AI project evidence in the resume text",
+        "Python backend evidence in a project or internship"
+      ],
+      "concerns": [],
+      "rejection_reasons": [],
+      "error": null
+    },
+    {
+      "rank": 20,
+      "filename": "candidate_26.pdf",
+      "candidate_name": "Thejeshwaar Paasila",
+      "email": "thejeshwaarp@gmail.com",
+      "eligible": true,
+      "status": "parsed",
+      "total_score": 54,
+      "score_breakdown": {
+        "ai_project_depth": 26,
+        "python_backend": 16,
+        "cloud_fullstack": 11,
+        "github": 0,
+        "engineering_depth": 1
+      },
+      "score_evidence": {
+        "ai_project_depth": "AI project evidence: OpenAI, Gen AI (+16); orchestration (+6); backend logic (+4)",
+        "python_backend": "Python in project/work (+12); PostgreSQL in project/work (+4)",
+        "cloud_fullstack": "GCP on a skills list (+2); Docker on a skills list (+2); deployment in project/work (+4); React or Next.js inside a system that also has backend or deploy evidence (+3)",
+        "github": "GitHub enrichment failed (HTTP 403). Score left at 0.",
+        "engineering_depth": "Engineering signals: concurrency"
+      },
+      "matched_skills": [
+        "Python",
+        "PostgreSQL",
+        "Docker",
+        "GCP",
+        "React",
+        "Next.js",
+        "RAG",
+        "OpenAI",
+        "Gen AI",
+        "LLM",
+        "Hugging Face",
+        "transformers",
+        "JavaScript"
+      ],
+      "project_summary": "Deterministic read: AI depth 26/40, Python backend 16/30, cloud 11/15, engineering 1/5. GitHub is scored separately.",
+      "github_summary": "GitHub enrichment failed (HTTP 403). Score left at 0.",
+      "github_status": "failed",
+      "llm_status": "skipped",
+      "llm_note": "No LLM_API_KEY or XAI_API_KEY set. Deterministic score kept.",
+      "strengths": [
+        "Cloud or deployment evidence"
+      ],
+      "concerns": [],
+      "rejection_reasons": [],
+      "error": null
+    },
+    {
+      "rank": 21,
+      "filename": "candidate_23.pdf",
+      "candidate_name": "ANNISHA S",
+      "email": "annishasaravanan83@gmail.com",
+      "eligible": true,
+      "status": "parsed",
+      "total_score": 53,
+      "score_breakdown": {
+        "ai_project_depth": 26,
+        "python_backend": 24,
+        "cloud_fullstack": 3,
+        "github": 0,
+        "engineering_depth": 0
+      },
+      "score_evidence": {
+        "ai_project_depth": "AI project evidence: LangGraph, OpenAI, LLM (+16); orchestration (+6); backend logic (+4)",
+        "python_backend": "Python in project/work (+12); FastAPI in project/work (+8); PostgreSQL in project/work (+4)",
+        "cloud_fullstack": "React or Next.js inside a system that also has backend or deploy evidence (+3)",
+        "github": "GitHub enrichment failed (HTTP 403). Score left at 0.",
+        "engineering_depth": "No testing, architecture, caching, queue, observability, concurrency, or failure-handling evidence"
+      },
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "React",
+        "LangGraph",
+        "OpenAI",
+        "LLM"
+      ],
+      "project_summary": "Deterministic read: AI depth 26/40, Python backend 24/30, cloud 3/15, engineering 0/5. GitHub is scored separately.",
+      "github_summary": "GitHub enrichment failed (HTTP 403). Score left at 0.",
+      "github_status": "failed",
+      "llm_status": "skipped",
+      "llm_note": "No LLM_API_KEY or XAI_API_KEY set. Deterministic score kept.",
+      "strengths": [
+        "Python backend evidence in a project or internship"
+      ],
+      "concerns": [
+        "No testing, architecture, or reliability signals"
+      ],
+      "rejection_reasons": [],
+      "error": null
+    },
+    {
+      "rank": 22,
+      "filename": "candidate_17.pdf",
+      "candidate_name": "Gourab Das",
+      "email": "gourabdas1307@gmail.com",
+      "eligible": true,
+      "status": "parsed",
+      "total_score": 53,
+      "score_breakdown": {
+        "ai_project_depth": 20,
+        "python_backend": 19,
+        "cloud_fullstack": 12,
+        "github": 0,
+        "engineering_depth": 2
+      },
+      "score_evidence": {
+        "ai_project_depth": "AI project evidence: agent (+16); backend logic (+4)",
+        "python_backend": "Python on a skills list (+6); FastAPI in project/work (+8); PostgreSQL in project/work (+4); Redis on a skills list (+1)",
+        "cloud_fullstack": "Docker in project/work (+5); deployment in project/work (+4); React or Next.js inside a system that also has backend or deploy evidence (+3)",
+        "github": "GitHub enrichment failed (HTTP 403). Score left at 0.",
+        "engineering_depth": "Engineering signals: testing, concurrency"
+      },
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "Redis",
+        "Docker",
+        "React",
+        "LangChain",
+        "LangGraph",
+        "RAG",
+        "agent",
+        "Java",
+        "Spring Boot"
+      ],
+      "project_summary": "Deterministic read: AI depth 20/40, Python backend 19/30, cloud 12/15, engineering 2/5. GitHub is scored separately.",
+      "github_summary": "GitHub enrichment failed (HTTP 403). Score left at 0.",
+      "github_status": "failed",
+      "llm_status": "skipped",
+      "llm_note": "No LLM_API_KEY or XAI_API_KEY set. Deterministic score kept.",
+      "strengths": [
+        "Python backend evidence in a project or internship",
+        "Cloud or deployment evidence"
+      ],
+      "concerns": [],
+      "rejection_reasons": [],
+      "error": null
+    },
+    {
+      "rank": 23,
+      "filename": "candidate_38.pdf",
+      "candidate_name": "PAVANI A",
+      "email": "pavani10112004@gmail.com",
+      "eligible": true,
+      "status": "parsed",
+      "total_score": 52,
+      "score_breakdown": {
+        "ai_project_depth": 20,
+        "python_backend": 24,
+        "cloud_fullstack": 8,
+        "github": 0,
+        "engineering_depth": 0
+      },
+      "score_evidence": {
+        "ai_project_depth": "AI project evidence: LLM (+16); backend logic (+4)",
+        "python_backend": "Python in project/work (+12); FastAPI in project/work (+8); PostgreSQL in project/work (+4)",
+        "cloud_fullstack": "Docker in project/work (+5); React or Next.js inside a system that also has backend or deploy evidence (+3)",
+        "github": "GitHub enrichment failed (HTTP 403). Score left at 0.",
+        "engineering_depth": "No testing, architecture, caching, queue, observability, concurrency, or failure-handling evidence"
+      },
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "Docker",
+        "React",
+        "Next.js",
+        "LLM",
+        "Java",
+        "JavaScript"
+      ],
+      "project_summary": "Deterministic read: AI depth 20/40, Python backend 24/30, cloud 8/15, engineering 0/5. GitHub is scored separately.",
+      "github_summary": "GitHub enrichment failed (HTTP 403). Score left at 0.",
+      "github_status": "failed",
+      "llm_status": "skipped",
+      "llm_note": "No LLM_API_KEY or XAI_API_KEY set. Deterministic score kept.",
+      "strengths": [
+        "Python backend evidence in a project or internship",
+        "Cloud or deployment evidence"
+      ],
+      "concerns": [
+        "No testing, architecture, or reliability signals"
+      ],
+      "rejection_reasons": [],
+      "error": null
+    },
+    {
+      "rank": 24,
+      "filename": "candidate_19.pdf",
+      "candidate_name": "P.V. Jayavardhana Sai",
+      "email": "pvjayavardhan6@gmail.com",
+      "eligible": true,
+      "status": "parsed",
+      "total_score": 49,
+      "score_breakdown": {
+        "ai_project_depth": 28,
+        "python_backend": 12,
+        "cloud_fullstack": 9,
+        "github": 0,
+        "engineering_depth": 0
+      },
+      "score_evidence": {
+        "ai_project_depth": "AI project evidence: RAG, LLM, transformers (+16); retrieval (+6); orchestration (+6)",
+        "python_backend": "Python in project/work (+12)",
+        "cloud_fullstack": "Docker on a skills list (+2); deployment in project/work (+4); React or Next.js inside a system that also has backend or deploy evidence (+3)",
+        "github": "No GitHub profile on resume",
+        "engineering_depth": "No testing, architecture, caching, queue, observability, concurrency, or failure-handling evidence"
+      },
+      "matched_skills": [
+        "Python",
+        "Docker",
+        "React",
+        "RAG",
+        "agent",
+        "Gen AI",
+        "LLM",
+        "transformers",
+        "Java",
+        "JavaScript"
+      ],
+      "project_summary": "Deterministic read: AI depth 28/40, Python backend 12/30, cloud 9/15, engineering 0/5. GitHub is scored separately.",
+      "github_summary": "No GitHub profile on resume",
+      "github_status": "missing",
+      "llm_status": "skipped",
+      "llm_note": "No LLM_API_KEY or XAI_API_KEY set. Deterministic score kept.",
+      "strengths": [
+        "Strong AI project evidence in the resume text",
+        "Cloud or deployment evidence"
+      ],
+      "concerns": [
+        "No testing, architecture, or reliability signals"
+      ],
+      "rejection_reasons": [],
+      "error": null
+    },
+    {
+      "rank": 25,
+      "filename": "candidate_09.pdf",
+      "candidate_name": "KRISHAN KANT",
+      "email": "krishankantptu@gmail.com",
+      "eligible": true,
+      "status": "parsed",
+      "total_score": 47,
+      "score_breakdown": {
+        "ai_project_depth": 20,
+        "python_backend": 15,
+        "cloud_fullstack": 8,
+        "github": 0,
+        "engineering_depth": 4
+      },
+      "score_evidence": {
+        "ai_project_depth": "AI project evidence: OpenAI, LLM (+16); backend logic (+4)",
+        "python_backend": "Python on a skills list (+6); async in project/work (+4); PostgreSQL in project/work (+4); Redis on a skills list (+1)",
+        "cloud_fullstack": "Docker in project/work (+5); React or Next.js inside a system that also has backend or deploy evidence (+3)",
+        "github": "No GitHub profile on resume",
+        "engineering_depth": "Engineering signals: architecture, observability, concurrency, failure handling"
+      },
+      "matched_skills": [
+        "Python",
+        "async",
+        "PostgreSQL",
+        "Redis",
+        "Docker",
+        "React",
+        "LangChain",
+        "RAG",
+        "vector search",
+        "OpenAI",
+        "Gen AI",
+        "LLM",
+        "Java",
+        "JavaScript",
+        "Spring Boot"
+      ],
+      "project_summary": "Deterministic read: AI depth 20/40, Python backend 15/30, cloud 8/15, engineering 4/5. GitHub is scored separately.",
+      "github_summary": "No GitHub profile on resume",
+      "github_status": "missing",
+      "llm_status": "skipped",
+      "llm_note": "No LLM_API_KEY or XAI_API_KEY set. Deterministic score kept.",
+      "strengths": [
+        "Cloud or deployment evidence",
+        "Several engineering-depth signals"
+      ],
+      "concerns": [],
+      "rejection_reasons": [],
+      "error": null
+    },
+    {
+      "rank": 26,
+      "filename": "candidate_39.pdf",
+      "candidate_name": "Vivek Shekhawat",
+      "email": "vivekshekhawatofficial1592002@gmail.com",
+      "eligible": true,
+      "status": "parsed",
+      "total_score": 46,
+      "score_breakdown": {
+        "ai_project_depth": 32,
+        "python_backend": 10,
+        "cloud_fullstack": 3,
+        "github": 0,
+        "engineering_depth": 1
+      },
+      "score_evidence": {
+        "ai_project_depth": "AI project evidence: LangChain, LangGraph, RAG, embeddings, vector search, LLM (+16); retrieval (+6); orchestration (+6); backend logic (+4)",
+        "python_backend": "Python on a skills list (+6); PostgreSQL in project/work (+4)",
+        "cloud_fullstack": "React or Next.js inside a system that also has backend or deploy evidence (+3)",
+        "github": "GitHub enrichment failed (HTTP 403). Score left at 0.",
+        "engineering_depth": "Engineering signals: concurrency"
+      },
+      "matched_skills": [
+        "Python",
+        "PostgreSQL",
+        "React",
+        "Next.js",
+        "LangChain",
+        "LangGraph",
+        "RAG",
+        "embeddings",
+        "vector search",
+        "LLM",
+        "Java",
+        "JavaScript"
+      ],
+      "project_summary": "Deterministic read: AI depth 32/40, Python backend 10/30, cloud 3/15, engineering 1/5. GitHub is scored separately.",
+      "github_summary": "GitHub enrichment failed (HTTP 403). Score left at 0.",
+      "github_status": "failed",
+      "llm_status": "skipped",
+      "llm_note": "No LLM_API_KEY or XAI_API_KEY set. Deterministic score kept.",
+      "strengths": [
+        "Strong AI project evidence in the resume text"
+      ],
+      "concerns": [
+        "Thin Python backend evidence"
+      ],
+      "rejection_reasons": [],
+      "error": null
+    },
+    {
+      "rank": 27,
+      "filename": "candidate_29.pdf",
+      "candidate_name": "VIKRAM MADHYASTA",
+      "email": "vikrammadyasta@gmail.com",
+      "eligible": true,
+      "status": "parsed",
+      "total_score": 43,
+      "score_breakdown": {
+        "ai_project_depth": 20,
+        "python_backend": 12,
+        "cloud_fullstack": 9,
+        "github": 0,
+        "engineering_depth": 2
+      },
+      "score_evidence": {
+        "ai_project_depth": "AI project evidence: OpenAI (+16); backend logic (+4)",
+        "python_backend": "Python in project/work (+12)",
+        "cloud_fullstack": "Docker in project/work (+5); deployment in project/work (+4)",
+        "github": "No GitHub profile on resume",
+        "engineering_depth": "Engineering signals: observability, concurrency"
+      },
+      "matched_skills": [
+        "Python",
+        "Docker",
+        "OpenAI",
+        "Java"
+      ],
+      "project_summary": "Deterministic read: AI depth 20/40, Python backend 12/30, cloud 9/15, engineering 2/5. GitHub is scored separately.",
+      "github_summary": "No GitHub profile on resume",
+      "github_status": "missing",
+      "llm_status": "skipped",
+      "llm_note": "No LLM_API_KEY or XAI_API_KEY set. Deterministic score kept.",
+      "strengths": [
+        "Cloud or deployment evidence"
+      ],
+      "concerns": [],
+      "rejection_reasons": [],
+      "error": null
+    },
+    {
+      "rank": 28,
+      "filename": "candidate_36.pdf",
+      "candidate_name": "Saif Ali Nagori",
+      "email": "saifalinagori78@gmail.com",
+      "eligible": true,
+      "status": "parsed",
+      "total_score": 42,
+      "score_breakdown": {
+        "ai_project_depth": 26,
+        "python_backend": 9,
+        "cloud_fullstack": 7,
+        "github": 0,
+        "engineering_depth": 0
+      },
+      "score_evidence": {
+        "ai_project_depth": "AI project evidence: RAG, LLM (+16); retrieval (+6); backend logic (+4)",
+        "python_backend": "Python on a skills list (+6); FastAPI on a skills list (+3)",
+        "cloud_fullstack": "deployment in project/work (+4); React or Next.js inside a system that also has backend or deploy evidence (+3)",
+        "github": "GitHub enrichment failed (HTTP 403). Score left at 0.",
+        "engineering_depth": "No testing, architecture, caching, queue, observability, concurrency, or failure-handling evidence"
+      },
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "React",
+        "RAG",
+        "LLM",
+        "JavaScript"
+      ],
+      "project_summary": "Deterministic read: AI depth 26/40, Python backend 9/30, cloud 7/15, engineering 0/5. GitHub is scored separately.",
+      "github_summary": "GitHub enrichment failed (HTTP 403). Score left at 0.",
+      "github_status": "failed",
+      "llm_status": "skipped",
+      "llm_note": "No LLM_API_KEY or XAI_API_KEY set. Deterministic score kept.",
+      "strengths": [],
+      "concerns": [
+        "Thin Python backend evidence",
+        "No testing, architecture, or reliability signals"
+      ],
+      "rejection_reasons": [],
+      "error": null
+    },
+    {
+      "rank": 29,
+      "filename": "candidate_21.pdf",
+      "candidate_name": "MANOJ KUMAR K R",
+      "email": "manojkumar.k.r0904@gmail.com",
+      "eligible": true,
+      "status": "parsed",
+      "total_score": 40,
+      "score_breakdown": {
+        "ai_project_depth": 20,
+        "python_backend": 12,
+        "cloud_fullstack": 7,
+        "github": 0,
+        "engineering_depth": 1
+      },
+      "score_evidence": {
+        "ai_project_depth": "AI project evidence: Hugging Face (+16); backend logic (+4)",
+        "python_backend": "Python in project/work (+12)",
+        "cloud_fullstack": "deployment in project/work (+4); React or Next.js inside a system that also has backend or deploy evidence (+3)",
+        "github": "No GitHub profile on resume",
+        "engineering_depth": "Engineering signals: testing"
+      },
+      "matched_skills": [
+        "Python",
+        "React",
+        "Hugging Face",
+        "Java"
+      ],
+      "project_summary": "Deterministic read: AI depth 20/40, Python backend 12/30, cloud 7/15, engineering 1/5. GitHub is scored separately.",
+      "github_summary": "No GitHub profile on resume",
+      "github_status": "missing",
+      "llm_status": "skipped",
+      "llm_note": "No LLM_API_KEY or XAI_API_KEY set. Deterministic score kept.",
+      "strengths": [],
+      "concerns": [],
+      "rejection_reasons": [],
+      "error": null
+    },
+    {
+      "rank": 30,
+      "filename": "candidate_49.pdf",
+      "candidate_name": "Aswin Raj R",
+      "email": "aswinrajr12@gmail.com",
+      "eligible": true,
+      "status": "parsed",
+      "total_score": 38,
+      "score_breakdown": {
+        "ai_project_depth": 26,
+        "python_backend": 12,
+        "cloud_fullstack": 0,
+        "github": 0,
+        "engineering_depth": 0
+      },
+      "score_evidence": {
+        "ai_project_depth": "AI project evidence: LangChain, RAG, OpenAI, Gen AI, LLM, transformers (+16); retrieval (+6); backend logic (+4)",
+        "python_backend": "Python in project/work (+12)",
+        "cloud_fullstack": "No cloud, Docker, or deployment evidence",
+        "github": "No GitHub profile on resume",
+        "engineering_depth": "No testing, architecture, caching, queue, observability, concurrency, or failure-handling evidence"
+      },
+      "matched_skills": [
+        "Python",
+        "React",
+        "LangChain",
+        "RAG",
+        "OpenAI",
+        "Gen AI",
+        "LLM",
+        "transformers",
+        "Java",
+        "JavaScript",
+        "Spring Boot"
+      ],
+      "project_summary": "Deterministic read: AI depth 26/40, Python backend 12/30, cloud 0/15, engineering 0/5. GitHub is scored separately.",
+      "github_summary": "No GitHub profile on resume",
+      "github_status": "missing",
+      "llm_status": "skipped",
+      "llm_note": "No LLM_API_KEY or XAI_API_KEY set. Deterministic score kept.",
+      "strengths": [],
+      "concerns": [
+        "No cloud or deployment evidence",
+        "No testing, architecture, or reliability signals"
+      ],
+      "rejection_reasons": [],
+      "error": null
+    },
+    {
+      "rank": 31,
+      "filename": "candidate_06.pdf",
+      "candidate_name": "M SAI KUSHITH",
+      "email": "msaikushith718@gmail.com",
+      "eligible": true,
+      "status": "parsed",
+      "total_score": 35,
+      "score_breakdown": {
+        "ai_project_depth": 16,
+        "python_backend": 16,
+        "cloud_fullstack": 3,
+        "github": 0,
+        "engineering_depth": 0
+      },
+      "score_evidence": {
+        "ai_project_depth": "AI project evidence: LLM (+16); depth terms appear in the skills list, so the thin-wrapper penalty was not applied",
+        "python_backend": "Python in project/work (+12); FastAPI on a skills list (+3); PostgreSQL on a skills list (+1)",
+        "cloud_fullstack": "React or Next.js inside a system that also has backend or deploy evidence (+3)",
+        "github": "No GitHub profile on resume",
+        "engineering_depth": "No testing, architecture, caching, queue, observability, concurrency, or failure-handling evidence"
+      },
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "React",
+        "LangChain",
+        "LangGraph",
+        "RAG",
+        "vector search",
+        "LLM",
+        "Java"
+      ],
+      "project_summary": "Deterministic read: AI depth 16/40, Python backend 16/30, cloud 3/15, engineering 0/5. GitHub is scored separately.",
+      "github_summary": "No GitHub profile on resume",
+      "github_status": "missing",
+      "llm_status": "skipped",
+      "llm_note": "No LLM_API_KEY or XAI_API_KEY set. Deterministic score kept.",
+      "strengths": [],
+      "concerns": [
+        "No testing, architecture, or reliability signals"
+      ],
+      "rejection_reasons": [],
+      "error": null
+    },
+    {
+      "rank": 32,
+      "filename": "candidate_25.pdf",
+      "candidate_name": "Atul Kumar Dehradun",
+      "email": "atulofficial02@gmail.com",
+      "eligible": true,
+      "status": "parsed",
+      "total_score": 22,
+      "score_breakdown": {
+        "ai_project_depth": 6,
+        "python_backend": 6,
+        "cloud_fullstack": 10,
+        "github": 0,
+        "engineering_depth": 0
+      },
+      "score_evidence": {
+        "ai_project_depth": "AI project evidence: transformers (+16); thin wrapper or keyword-only project (-10)",
+        "python_backend": "Python on a skills list (+6)",
+        "cloud_fullstack": "GCP in project/work (+6); deployment in project/work (+4)",
+        "github": "No GitHub profile on resume",
+        "engineering_depth": "No testing, architecture, caching, queue, observability, concurrency, or failure-handling evidence"
+      },
+      "matched_skills": [
+        "Python",
+        "GCP",
+        "Gen AI",
+        "LLM",
+        "transformers"
+      ],
+      "project_summary": "Deterministic read: AI depth 6/40, Python backend 6/30, cloud 10/15, engineering 0/5. GitHub is scored separately.",
+      "github_summary": "No GitHub profile on resume",
+      "github_status": "missing",
+      "llm_status": "skipped",
+      "llm_note": "No LLM_API_KEY or XAI_API_KEY set. Deterministic score kept.",
+      "strengths": [
+        "Cloud or deployment evidence"
+      ],
+      "concerns": [
+        "Limited AI project depth",
+        "Thin Python backend evidence",
+        "No testing, architecture, or reliability signals"
+      ],
+      "rejection_reasons": [],
+      "error": null
+    },
+    {
+      "rank": 33,
+      "filename": "candidate_24.pdf",
+      "candidate_name": "DORNIPADU KARTHIKA CHAITRIKA",
+      "email": "dornipadukarthi@gmail.com",
+      "eligible": true,
+      "status": "parsed",
+      "total_score": 20,
+      "score_breakdown": {
+        "ai_project_depth": 8,
+        "python_backend": 12,
+        "cloud_fullstack": 0,
+        "github": 0,
+        "engineering_depth": 0
+      },
+      "score_evidence": {
+        "ai_project_depth": "AI mentioned outside a project block: RAG, LLM (+8)",
+        "python_backend": "Python in project/work (+12)",
+        "cloud_fullstack": "No cloud, Docker, or deployment evidence",
+        "github": "GitHub enrichment failed (HTTP 403). Score left at 0.",
+        "engineering_depth": "No testing, architecture, caching, queue, observability, concurrency, or failure-handling evidence"
+      },
+      "matched_skills": [
+        "Python",
+        "RAG",
+        "embeddings",
+        "Gen AI",
+        "LLM",
+        "JavaScript"
+      ],
+      "project_summary": "Deterministic read: AI depth 8/40, Python backend 12/30, cloud 0/15, engineering 0/5. GitHub is scored separately.",
+      "github_summary": "GitHub enrichment failed (HTTP 403). Score left at 0.",
+      "github_status": "failed",
+      "llm_status": "skipped",
+      "llm_note": "No LLM_API_KEY or XAI_API_KEY set. Deterministic score kept.",
+      "strengths": [],
+      "concerns": [
+        "Limited AI project depth",
+        "No cloud or deployment evidence",
+        "No testing, architecture, or reliability signals"
+      ],
+      "rejection_reasons": [],
+      "error": null
+    },
+    {
+      "rank": null,
+      "filename": "candidate_46.pdf",
+      "candidate_name": "AABHAR GUPTA",
+      "email": "aabhargupta2310@gmail.com",
+      "eligible": false,
+      "status": "parsed",
+      "total_score": null,
+      "score_breakdown": null,
+      "score_evidence": null,
+      "matched_skills": [
+        "PostgreSQL",
+        "Redis",
+        "GCP",
+        "React",
+        "JavaScript"
+      ],
+      "project_summary": "Hard filter rejected this resume. No evidence of Python stack; No AI/agentic project evidence",
+      "github_summary": "No GitHub profile on resume",
+      "github_status": "missing",
+      "llm_status": "not_called",
+      "llm_note": "The model is not called after a failed hard filter.",
+      "strengths": [],
+      "concerns": [],
+      "rejection_reasons": [
+        "No evidence of Python stack",
+        "No AI/agentic project evidence"
+      ],
+      "error": null
+    },
+    {
+      "rank": null,
+      "filename": "candidate_03.pdf",
+      "candidate_name": "Agam Jain",
+      "email": "jainagam4@gmail.com",
+      "eligible": false,
+      "status": "parsed",
+      "total_score": null,
+      "score_breakdown": null,
+      "score_evidence": null,
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "Redis",
+        "Docker",
+        "React",
+        "Next.js",
+        "Java",
+        "JavaScript",
+        "Spring Boot"
+      ],
+      "project_summary": "Hard filter rejected this resume. No AI/agentic project evidence",
+      "github_summary": "No GitHub profile on resume",
+      "github_status": "missing",
+      "llm_status": "not_called",
+      "llm_note": "The model is not called after a failed hard filter.",
+      "strengths": [],
+      "concerns": [],
+      "rejection_reasons": [
+        "No AI/agentic project evidence"
+      ],
+      "error": null
+    },
+    {
+      "rank": null,
+      "filename": "candidate_42.pdf",
+      "candidate_name": "ANJALI PATIL",
+      "email": "anjalipatil1220@gmail.com",
+      "eligible": false,
+      "status": "parsed",
+      "total_score": null,
+      "score_breakdown": null,
+      "score_evidence": null,
+      "matched_skills": [
+        "PostgreSQL",
+        "Redis",
+        "Docker",
+        "Java",
+        "JavaScript",
+        "Spring Boot"
+      ],
+      "project_summary": "Hard filter rejected this resume. No evidence of Python stack; No AI/agentic project evidence",
+      "github_summary": "No GitHub profile on resume",
+      "github_status": "missing",
+      "llm_status": "not_called",
+      "llm_note": "The model is not called after a failed hard filter.",
+      "strengths": [],
+      "concerns": [],
+      "rejection_reasons": [
+        "No evidence of Python stack",
+        "No AI/agentic project evidence"
+      ],
+      "error": null
+    },
+    {
+      "rank": null,
+      "filename": "candidate_20.pdf",
+      "candidate_name": null,
+      "email": "priyaraguraman29@gmail.com",
+      "eligible": false,
+      "status": "parsed",
+      "total_score": null,
+      "score_breakdown": null,
+      "score_evidence": null,
+      "matched_skills": [
+        "Python",
+        "React",
+        "JavaScript"
+      ],
+      "project_summary": "Hard filter rejected this resume. No AI/agentic project evidence",
+      "github_summary": "Profile github.com/Priya291102 was not enriched because the candidate failed the hard filter.",
+      "github_status": "not_scored",
+      "llm_status": "not_called",
+      "llm_note": "The model is not called after a failed hard filter.",
+      "strengths": [],
+      "concerns": [],
+      "rejection_reasons": [
+        "No AI/agentic project evidence"
+      ],
+      "error": null
+    },
+    {
+      "rank": null,
+      "filename": "candidate_27.pdf",
+      "candidate_name": "Gayathri Palraj",
+      "email": "gayathri.2842004@gmail.com",
+      "eligible": false,
+      "status": "parsed",
+      "total_score": null,
+      "score_breakdown": null,
+      "score_evidence": null,
+      "matched_skills": [
+        "Python",
+        "React",
+        "Java",
+        "JavaScript"
+      ],
+      "project_summary": "Hard filter rejected this resume. No AI/agentic project evidence",
+      "github_summary": "No GitHub profile on resume",
+      "github_status": "missing",
+      "llm_status": "not_called",
+      "llm_note": "The model is not called after a failed hard filter.",
+      "strengths": [],
+      "concerns": [],
+      "rejection_reasons": [
+        "No AI/agentic project evidence"
+      ],
+      "error": null
+    },
+    {
+      "rank": null,
+      "filename": "candidate_18.pdf",
+      "candidate_name": "Harshit Kumar Mishra",
+      "email": "jmd.harshitmishra@gmail.com",
+      "eligible": false,
+      "status": "parsed",
+      "total_score": null,
+      "score_breakdown": null,
+      "score_evidence": null,
+      "matched_skills": [
+        "PostgreSQL",
+        "Redis",
+        "Docker",
+        "GCP",
+        "React",
+        "Next.js",
+        "JavaScript"
+      ],
+      "project_summary": "Hard filter rejected this resume. No evidence of Python stack; No AI/agentic project evidence",
+      "github_summary": "No GitHub profile on resume",
+      "github_status": "missing",
+      "llm_status": "not_called",
+      "llm_note": "The model is not called after a failed hard filter.",
+      "strengths": [],
+      "concerns": [],
+      "rejection_reasons": [
+        "No evidence of Python stack",
+        "No AI/agentic project evidence"
+      ],
+      "error": null
+    },
+    {
+      "rank": null,
+      "filename": "candidate_14.pdf",
+      "candidate_name": "JAYA NANDI",
+      "email": "jaya85300@gmail.com",
+      "eligible": false,
+      "status": "parsed",
+      "total_score": null,
+      "score_breakdown": null,
+      "score_evidence": null,
+      "matched_skills": [
+        "Python",
+        "React",
+        "Java",
+        "JavaScript"
+      ],
+      "project_summary": "Hard filter rejected this resume. No AI/agentic project evidence",
+      "github_summary": "No GitHub profile on resume",
+      "github_status": "missing",
+      "llm_status": "not_called",
+      "llm_note": "The model is not called after a failed hard filter.",
+      "strengths": [],
+      "concerns": [],
+      "rejection_reasons": [
+        "No AI/agentic project evidence"
+      ],
+      "error": null
+    },
+    {
+      "rank": null,
+      "filename": "candidate_01.pdf",
+      "candidate_name": "Kartikay Sinha",
+      "email": "kartikay.sinha17@gmail.com",
+      "eligible": false,
+      "status": "parsed",
+      "total_score": null,
+      "score_breakdown": null,
+      "score_evidence": null,
+      "matched_skills": [
+        "Docker",
+        "React",
+        "Next.js",
+        "JavaScript"
+      ],
+      "project_summary": "Hard filter rejected this resume. No evidence of Python stack; No AI/agentic project evidence",
+      "github_summary": "Profile github.com/KS1745 was not enriched because the candidate failed the hard filter.",
+      "github_status": "not_scored",
+      "llm_status": "not_called",
+      "llm_note": "The model is not called after a failed hard filter.",
+      "strengths": [],
+      "concerns": [],
+      "rejection_reasons": [
+        "No evidence of Python stack",
+        "No AI/agentic project evidence"
+      ],
+      "error": null
+    },
+    {
+      "rank": null,
+      "filename": "candidate_11.pdf",
+      "candidate_name": "MD AZIZUL ISLAM",
+      "email": "mdazizul8741@gmail.com",
+      "eligible": false,
+      "status": "parsed",
+      "total_score": null,
+      "score_breakdown": null,
+      "score_evidence": null,
+      "matched_skills": [
+        "PostgreSQL",
+        "Redis",
+        "React",
+        "RAG",
+        "embeddings",
+        "vector search",
+        "OpenAI",
+        "LLM",
+        "JavaScript"
+      ],
+      "project_summary": "Hard filter rejected this resume. No evidence of Python stack",
+      "github_summary": "Profile github.com/Azizul-11 was not enriched because the candidate failed the hard filter.",
+      "github_status": "not_scored",
+      "llm_status": "not_called",
+      "llm_note": "The model is not called after a failed hard filter.",
+      "strengths": [],
+      "concerns": [],
+      "rejection_reasons": [
+        "No evidence of Python stack"
+      ],
+      "error": null
+    },
+    {
+      "rank": null,
+      "filename": "candidate_32.pdf",
+      "candidate_name": "Mukul Pal",
+      "email": "mukulpal0333@gmail.com",
+      "eligible": false,
+      "status": "parsed",
+      "total_score": null,
+      "score_breakdown": null,
+      "score_evidence": null,
+      "matched_skills": [
+        "async",
+        "PostgreSQL",
+        "Redis",
+        "Docker",
+        "React",
+        "Next.js",
+        "OpenAI",
+        "LLM",
+        "JavaScript"
+      ],
+      "project_summary": "Hard filter rejected this resume. No evidence of Python stack",
+      "github_summary": "Profile github.com/mukulpal03 was not enriched because the candidate failed the hard filter.",
+      "github_status": "not_scored",
+      "llm_status": "not_called",
+      "llm_note": "The model is not called after a failed hard filter.",
+      "strengths": [],
+      "concerns": [],
+      "rejection_reasons": [
+        "No evidence of Python stack"
+      ],
+      "error": null
+    },
+    {
+      "rank": null,
+      "filename": "candidate_48.pdf",
+      "candidate_name": "NIDHI KM",
+      "email": "nidhikmgowda24@gmail.com",
+      "eligible": false,
+      "status": "parsed",
+      "total_score": null,
+      "score_breakdown": null,
+      "score_evidence": null,
+      "matched_skills": [
+        "Python",
+        "React",
+        "Java",
+        "JavaScript",
+        "Spring Boot"
+      ],
+      "project_summary": "Hard filter rejected this resume. No AI/agentic project evidence",
+      "github_summary": "Profile github.com/Nidhi-km was not enriched because the candidate failed the hard filter.",
+      "github_status": "not_scored",
+      "llm_status": "not_called",
+      "llm_note": "The model is not called after a failed hard filter.",
+      "strengths": [],
+      "concerns": [],
+      "rejection_reasons": [
+        "No AI/agentic project evidence"
+      ],
+      "error": null
+    },
+    {
+      "rank": null,
+      "filename": "candidate_34.pdf",
+      "candidate_name": "NISARGA H. S.",
+      "email": "nisarga20suresh@gmail.com",
+      "eligible": false,
+      "status": "parsed",
+      "total_score": null,
+      "score_breakdown": null,
+      "score_evidence": null,
+      "matched_skills": [
+        "Python",
+        "Java",
+        "JavaScript",
+        "Spring Boot"
+      ],
+      "project_summary": "Hard filter rejected this resume. No AI/agentic project evidence",
+      "github_summary": "No GitHub profile on resume",
+      "github_status": "missing",
+      "llm_status": "not_called",
+      "llm_note": "The model is not called after a failed hard filter.",
+      "strengths": [],
+      "concerns": [],
+      "rejection_reasons": [
+        "No AI/agentic project evidence"
+      ],
+      "error": null
+    },
+    {
+      "rank": null,
+      "filename": "candidate_45.pdf",
+      "candidate_name": "Parshuram Kumar",
+      "email": "parshuramkumarofficial725@gmail.com",
+      "eligible": false,
+      "status": "parsed",
+      "total_score": null,
+      "score_breakdown": null,
+      "score_evidence": null,
+      "matched_skills": [
+        "Python",
+        "async",
+        "Redis",
+        "Docker",
+        "React",
+        "JavaScript"
+      ],
+      "project_summary": "Hard filter rejected this resume. No AI/agentic project evidence",
+      "github_summary": "No GitHub profile on resume",
+      "github_status": "missing",
+      "llm_status": "not_called",
+      "llm_note": "The model is not called after a failed hard filter.",
+      "strengths": [],
+      "concerns": [],
+      "rejection_reasons": [
+        "No AI/agentic project evidence"
+      ],
+      "error": null
+    },
+    {
+      "rank": null,
+      "filename": "candidate_02.pdf",
+      "candidate_name": "SHIVAM RAJ",
+      "email": "shivam2kraj@gmail.com",
+      "eligible": false,
+      "status": "parsed",
+      "total_score": null,
+      "score_breakdown": null,
+      "score_evidence": null,
+      "matched_skills": [
+        "Docker",
+        "React",
+        "Next.js",
+        "JavaScript"
+      ],
+      "project_summary": "Hard filter rejected this resume. No evidence of Python stack; No AI/agentic project evidence",
+      "github_summary": "No GitHub profile on resume",
+      "github_status": "missing",
+      "llm_status": "not_called",
+      "llm_note": "The model is not called after a failed hard filter.",
+      "strengths": [],
+      "concerns": [],
+      "rejection_reasons": [
+        "No evidence of Python stack",
+        "No AI/agentic project evidence"
+      ],
+      "error": null
+    },
+    {
+      "rank": null,
+      "filename": "candidate_31.pdf",
+      "candidate_name": "Shreya Chauhan",
+      "email": "chauhanshreya140@gmail.com",
+      "eligible": false,
+      "status": "parsed",
+      "total_score": null,
+      "score_breakdown": null,
+      "score_evidence": null,
+      "matched_skills": [
+        "Python",
+        "Redis",
+        "React",
+        "Java",
+        "JavaScript",
+        "Spring Boot"
+      ],
+      "project_summary": "Hard filter rejected this resume. No AI/agentic project evidence",
+      "github_summary": "No GitHub profile on resume",
+      "github_status": "missing",
+      "llm_status": "not_called",
+      "llm_note": "The model is not called after a failed hard filter.",
+      "strengths": [],
+      "concerns": [],
+      "rejection_reasons": [
+        "No AI/agentic project evidence"
+      ],
+      "error": null
+    },
+    {
+      "rank": null,
+      "filename": "candidate_05.pdf",
+      "candidate_name": "VISHWAS BADIGER",
+      "email": "Vishwasbadiger240@gmail.com",
+      "eligible": false,
+      "status": "parsed",
+      "total_score": null,
+      "score_breakdown": null,
+      "score_evidence": null,
+      "matched_skills": [
+        "Python",
+        "React",
+        "Java",
+        "JavaScript",
+        "Spring Boot"
+      ],
+      "project_summary": "Hard filter rejected this resume. No AI/agentic project evidence",
+      "github_summary": "No GitHub profile on resume",
+      "github_status": "missing",
+      "llm_status": "not_called",
+      "llm_note": "The model is not called after a failed hard filter.",
+      "strengths": [],
+      "concerns": [],
+      "rejection_reasons": [
+        "No AI/agentic project evidence"
+      ],
+      "error": null
+    },
+    {
+      "rank": null,
+      "filename": "candidate_04.pdf",
+      "candidate_name": "Yuvaraj R",
+      "email": "yuvi.2003kce@gmail.com",
+      "eligible": false,
+      "status": "parsed",
+      "total_score": null,
+      "score_breakdown": null,
+      "score_evidence": null,
+      "matched_skills": [
+        "Python",
+        "PostgreSQL",
+        "Docker",
+        "Java"
+      ],
+      "project_summary": "Hard filter rejected this resume. No AI/agentic project evidence",
+      "github_summary": "No GitHub profile on resume",
+      "github_status": "missing",
+      "llm_status": "not_called",
+      "llm_note": "The model is not called after a failed hard filter.",
+      "strengths": [],
+      "concerns": [],
+      "rejection_reasons": [
+        "No AI/agentic project evidence"
+      ],
+      "error": null
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+AI Resume Screening
+===================
+
+Batch
+-----
+  total       50
+  parsed      50
+  eligible    33
+  rejected    17
+  failed      0
+
+Rejected
+--------
+
+Neither Python nor an AI project
+  candidate_46.pdf      AABHAR GUPTA                
+  candidate_42.pdf      ANJALI PATIL                
+  candidate_18.pdf      Harshit Kumar Mishra        
+  candidate_01.pdf      Kartikay Sinha              
+  candidate_02.pdf      SHIVAM RAJ                  
+
+Python, no AI project
+  candidate_03.pdf      Agam Jain                      FastAPI, PostgreSQL, Redis
+  candidate_20.pdf      —                           
+  candidate_27.pdf      Gayathri Palraj             
+  candidate_14.pdf      JAYA NANDI                  
+  candidate_48.pdf      NIDHI KM                    
+  candidate_34.pdf      NISARGA H. S.               
+  candidate_45.pdf      Parshuram Kumar                Redis
+  candidate_31.pdf      Shreya Chauhan                 Redis
+  candidate_05.pdf      VISHWAS BADIGER             
+  candidate_04.pdf      Yuvaraj R                      PostgreSQL
+
+AI project, no Python
+  candidate_11.pdf      MD AZIZUL ISLAM                RAG, embeddings, vector search, OpenAI, LLM
+  candidate_32.pdf      Mukul Pal                      OpenAI, LLM
+
+Ranking
+-------
+
+  Rank  Score   Name                            File
+  ----  -----   ----                            ----
+  1     80      ARUNIMA SAHA                    candidate_43.pdf
+  2     75      PRAJWAL A S                     candidate_22.pdf
+  3     74      Prathamesh Patil                candidate_35.pdf
+  4     74      Sumaiya Sultana Shaik           candidate_28.pdf
+  5     74      Yash Maini                      candidate_13.pdf
+  6     70      Hari Shanker Sharma             candidate_41.pdf
+  7     70      V Sree Raghu Vardhan            candidate_30.pdf
+  8     67      Nevil Jasmin Mehta              candidate_50.pdf
+  9     66      Vaibhav Wakde                   candidate_33.pdf
+  10    65      Arjun Kumar                     candidate_08.pdf
+  11    65      Jyandeep Baishya                candidate_07.pdf
+  12    65      PRIYANSHU KUMAR                 candidate_16.pdf
+  13    63      Aditi Kala                      candidate_37.pdf
+  14    62      Kiran Naregal                   candidate_47.pdf
+  15    60      RAJ THUMAR                      candidate_40.pdf
+  16    59      ABHINAV MISHRA                  candidate_10.pdf
+  17    58      HARSHA A                        candidate_15.pdf
+  18    58      Vivek Chimnani                  candidate_44.pdf
+  19    57      SHUBHANSHU NAVADIYA             candidate_12.pdf
+  20    54      Thejeshwaar Paasila             candidate_26.pdf
+  21    53      ANNISHA S                       candidate_23.pdf
+  22    53      Gourab Das                      candidate_17.pdf
+  23    52      PAVANI A                        candidate_38.pdf
+  24    49      P.V. Jayavardhana Sai           candidate_19.pdf
+  25    47      KRISHAN KANT                    candidate_09.pdf
+  26    46      Vivek Shekhawat                 candidate_39.pdf
+  27    43      VIKRAM MADHYASTA                candidate_29.pdf
+  28    42      Saif Ali Nagori                 candidate_36.pdf
+  29    40      MANOJ KUMAR K R                 candidate_21.pdf
+  30    38      Aswin Raj R                     candidate_49.pdf
+  31    35      M SAI KUSHITH                   candidate_06.pdf
+  32    22      Atul Kumar Dehradun             candidate_25.pdf
+  33    20      DORNIPADU KARTHIKA CHAITRIKA    candidate_24.pdf
+
+  ARUNIMA SAHA ranks first with 80.
+
+Witnesses
+---------
+
+  Model     No model key was set. Every eligible row is llm_status: skipped.
+  GitHub    Checked 14. Scored 0. Failed 14.
