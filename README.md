@@ -1,4 +1,4 @@
-# AI Resume Screening & Ranking
+# Kasparro FSE AI Resume Screening & Ranking
 
 This is a command-line program. It reads a folder of PDF resumes and writes a ranked shortlist for an SDE internship that needs real Python and a practical AI or agentic project.
 
